@@ -434,7 +434,6 @@ Issue Tracking
 We use GitHub Issues for tracking tasks, bugs, and enhancements. Please check for open issues or create a new issue to discuss your ideas.
 Pull Requests
 All contributions should be made via pull requests to the develop branch.
-Please ensure your code follows the coding style guidelines and include appropriate unit tests for your contributions.
 A team member will review your pull request, and once approved, it will be merged into develop.
 
 done.md
