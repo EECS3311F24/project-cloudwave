@@ -84,9 +84,9 @@ Each team member will work on a separate branch and submit pull requests for int
 Code reviews are mandatory before any merges.
 6. Division of Work:
 Work will be divided according to the MVC structure:
-Model: 
-View (Java GUI): 
-Controller:
+Model: Abdihakim
+View (Java GUI): Hamza
+Controller: Najwa
 Testing, integration, deployment, and documentation will be assigned as needed.
 7. Submitting Assignments:
 All deliverables will be pushed to the project repository before the deadline.
