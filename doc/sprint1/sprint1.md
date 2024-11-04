@@ -17,31 +17,35 @@ All Team members have been present during our set meeting time for every week an
 Team Capacity: Each member spent at least 10 hours on the project. 
 
 User Stories for Sprint 1:
+User Story 1: Task Management for a Fitness Enthusiast
+Story: As a fitness enthusiast, I want to organize my to-do items based on my energy levels (e.g., stressed or productive) so that I can manage tasks related to workouts and self-care more effectively.
 
-User Story 1: User Sign-Up
-- Story: As a fitness enthusiast, I want to sign up by entering my name and email so that I can have a personalized experience with the app and track my progress.
-- Acceptance Criteria:
-  - Input fields for name and email
-  - "Sign Up" button to submit
-  - Data is saved locally in a text file
-  - Confirmation message displayed upon successful sign-up
+Acceptance Criteria:
+Input field for task description
+Dropdown to select task priority (Low Priority or High Priority)
+"Add Task" button to submit task data
+Tasks categorized in different panels based on priority
+Completed tasks move to the "Completed Tasks" panel
 
-Tasks
+Tasks:
+1. Set Up Task Input and Priority Selection:
+Assigned to: Najwa
+Description: Set up JTextField for task input and a dropdown (JComboBox) to select task priority.
+Estimation: 2 points (1 hour)
 
-Task 1: Set up JTextField input fields for username and password.
-- Assigned to: Najwa
-- Estimation: 2 points (1 hour)
+2. Implement "Add Task" Button Functionality:
+Assigned to: Abdihakim
+Description: Create an "Add Task" button that adds tasks to the appropriate panel based on the selected priority.
+Estimation: 2 points (1 hour)
 
-Task 2: Create a "Login" button for submitting user data.
-- Assigned to: Abdihakim
-- Estimation: 1 point (30 minutes)
-
-Task 3: Implement functionality to save user data (username and password) to a text file.
+3. Move Task to Completed Panel Upon Completion:
 Assigned to: Hamza
+Description: Add functionality to move a task to the "Completed Tasks" panel when it is marked as completed.
 Estimation: 3 points (1.5 hours)
 
-Task 4: Display a confirmation message upon successful sign-up (e.g., using JOptionPane).
+4. Display Completed Tasks:
 Assigned to: Najwa
+Description: Ensure completed tasks are displayed in the "Completed Tasks" panel and are disabled to prevent further modification.
 Estimation: 1 point (30 minutes)
 Total Estimate for User Story 1: 3 points
 
