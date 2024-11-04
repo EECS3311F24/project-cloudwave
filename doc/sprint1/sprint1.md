@@ -49,62 +49,60 @@ Description: Ensure completed tasks are displayed in the "Completed Tasks" panel
 Estimation: 1 point (30 minutes)
 Total Estimate for User Story 1: 3 points
 
-User Story 2: Basic Event Creation
-- Story: As a busy student, I want to add events to specific days in my calendar so that I can keep track of important deadlines and manage my schedule effectively.
-- Acceptance Criteria:
-  - Date selection for event creation
-  - Pop-up window for event details (name, date, and time)
-  - Event details saved in an array or list
-  - Events displayed on the selected date in the calendar
+User Story 2: User Settings and Password Reset for a Busy Student
+Story: As a busy student, I want to be able to reset my password securely so that I can keep my task list private and ensure only I have access to my schedule and to-dos.
+
+Acceptance Criteria:
+User settings tab with input fields for current and new password
+"Reset Password" button to confirm password change
+Confirmation message displayed upon successful password reset
+Logout button to return to the login page
+
+Tasks
+1. Set Up Current Password Input Field:
+Assigned to: Hamza
+Description: Set up a JPasswordField for entering the current password in the "User Settings" tab.
+Estimation: 1 point (30 minutes)
+
+2. Set Up New Password Input Field:
+Assigned to: Najwa
+Description: Set up a JPasswordField for entering a new password in the "User Settings" tab.
+Estimation: 1 point (30 minutes)
+
+3. Implement Reset Password Functionality:
+Assigned to: Abdihakim
+Description: Add functionality to validate the current password, update to a new password if correct, and display a confirmation message.
+Estimation: 2 points (1 hour)
+
+4. Logout Button Functionality:
+Assigned to: Hamza
+Description: Implement a logout button that closes the ToDoListPage and opens the LoginPage.
+Estimation: 1 point (30 minutes)
+Total Estimate for User Story 2: 3 points
+
+User Story 3: Quick Task Addition for a Working Professional
+Story: As a working professional, I want to quickly add high-priority tasks or deadlines under a "Productive" category so that I can manage urgent work commitments efficiently.
+
+Acceptance Criteria:
+Input field for task description
+Dropdown to prioritize tasks as "Productive" for important work tasks or "Stressed" for less urgent ones
+Tasks displayed in the correct category panel based on priority
+Completed tasks automatically move to the "Completed Tasks" panel
 
 Tasks
 
-Task 1: Enable date selection to create an event.
-Assigned to: Hamza
-Estimation: 2 points (1 hour)
-
-Task 2: Set up a pop-up to enter event details (name and priority).
-Assigned to: Abdihakim
-Estimation: 2 points (1 hour)
-
-Task 3: Save event details to an array or list.
+1. Add and Categorize Tasks Based on Priority:
 Assigned to: Najwa
+Description: Ensure tasks are added to either the "Stressed" or "Productive" panel based on the selected priority.
 Estimation: 2 points (1 hour)
 
-Task 4: Display events 
-Assigned to: Hamza
-Estimation: 3 points (1.5 hours)
-Total Estimate for User Story 2: 4 points
-
-User Story 3: Quick Event Addition for Busy Professionals
-- Story: As a working professional with a busy schedule, I want to quickly add and view
-  important work events or deadlines in my calendar so that I can effectively plan my day and avoid missing any deadlines.
-- Acceptance Criteria:
-  - The user can select a specific date in the calendar view.
-  - A pop-up (e.g., using JOptionPane) allows the user to enter details like event name and time.
-  - After confirming, the event is saved and displayed in the calendar view on the selected date.
-  - If the user tries to save an event without entering both the event name and time, an error message prompts them to complete all fields.
-
-Tasks:
-
-Task 1: Develop a date selection feature within the calendar view.
-Assigned to: Najwa
-Estimation: 2 points (1 hour)
-
-Task 2: Add a pop-up for entering event name and time.
+2. Move Completed Tasks to "Completed Tasks" Panel:
 Assigned to: Abdihakim
+Description: Implement functionality to automatically move tasks to the "Completed Tasks" panel when they are marked as completed.
 Estimation: 2 points (1 hour)
 
-Task 3: Write functionality to save event details to a calendar list.
+3. Disable Completed Tasks from Further Editing:
 Assigned to: Hamza
-Estimation: 3 points (1.5 hours)
-
-Task 4: Display saved events on selected dates in the calendar view.
-Assigned to: Najwa
-Estimation: 2 points (1 hour)
-
-Task 5: Implement error handling for incomplete fields (event name and time).
-Assigned to: Abdihakim
+Description: Ensure completed tasks are disabled from further modifications once moved to the "Completed Tasks" tab.
 Estimation: 1 point (30 minutes)
-
-Total Estimate for User Story 2: 10 points
+Total Estimate for User Story 3: 3 points
