@@ -17,7 +17,38 @@ All Team members have been present during our set meeting time for every week an
 Team Capacity: Each member spent at least 10 hours on the project. 
 
 User Stories for Sprint 1:
-User Story 1: Task Management for a Fitness Enthusiast
+User Story 1: User Settings and Password Reset for a Busy Student
+Story: As a busy student, I want to be able to reset my password securely so that I can keep my task list private and ensure only I have access to my schedule and to-dos.
+
+Acceptance Criteria:
+User settings tab with input fields for current and new password
+"Reset Password" button to confirm password change
+Confirmation message displayed upon successful password reset
+Logout button to return to the login page
+
+Tasks
+1. Set Up Current Password Input Field:
+Assigned to: Hamza
+Description: Set up a JPasswordField for entering the current password in the "User Settings" tab.
+Estimation: 1 point (30 minutes)
+
+2. Set Up New Password Input Field:
+Assigned to: Najwa
+Description: Set up a JPasswordField for entering a new password in the "User Settings" tab.
+Estimation: 1 point (30 minutes)
+
+3. Implement Reset Password Functionality:
+Assigned to: Abdihakim
+Description: Add functionality to validate the current password, update to a new password if correct, and display a confirmation message.
+Estimation: 2 points (1 hour)
+
+4. Logout Button Functionality:
+Assigned to: Hamza
+Description: Implement a logout button that closes the ToDoListPage and opens the LoginPage.
+Estimation: 1 point (30 minutes)
+Total Estimate for User Story 2: 3 points
+
+User Story 2: Task Management for a Fitness Enthusiast
 Story: As a fitness enthusiast, I want to organize my to-do items based on my energy levels (e.g., stressed or productive) so that I can manage tasks related to workouts and self-care more effectively.
 
 Acceptance Criteria:
@@ -49,36 +80,7 @@ Description: Ensure completed tasks are displayed in the "Completed Tasks" panel
 Estimation: 1 point (30 minutes)
 Total Estimate for User Story 1: 3 points
 
-User Story 2: User Settings and Password Reset for a Busy Student
-Story: As a busy student, I want to be able to reset my password securely so that I can keep my task list private and ensure only I have access to my schedule and to-dos.
 
-Acceptance Criteria:
-User settings tab with input fields for current and new password
-"Reset Password" button to confirm password change
-Confirmation message displayed upon successful password reset
-Logout button to return to the login page
-
-Tasks
-1. Set Up Current Password Input Field:
-Assigned to: Hamza
-Description: Set up a JPasswordField for entering the current password in the "User Settings" tab.
-Estimation: 1 point (30 minutes)
-
-2. Set Up New Password Input Field:
-Assigned to: Najwa
-Description: Set up a JPasswordField for entering a new password in the "User Settings" tab.
-Estimation: 1 point (30 minutes)
-
-3. Implement Reset Password Functionality:
-Assigned to: Abdihakim
-Description: Add functionality to validate the current password, update to a new password if correct, and display a confirmation message.
-Estimation: 2 points (1 hour)
-
-4. Logout Button Functionality:
-Assigned to: Hamza
-Description: Implement a logout button that closes the ToDoListPage and opens the LoginPage.
-Estimation: 1 point (30 minutes)
-Total Estimate for User Story 2: 3 points
 
 User Story 3: Quick Task Addition for a Working Professional
 Story: As a working professional, I want to quickly add high-priority tasks or deadlines under a "Productive" category so that I can manage urgent work commitments efficiently.
