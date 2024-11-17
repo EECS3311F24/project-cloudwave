@@ -1,0 +1,152 @@
+[November 4, 2024] - Sprint 2 Standup 1
+Najwa:
+
+What did you work on since the last standup?
+I worked on the backend logic for the Timer functionality, implementing the start, pause, and reset methods. 
+I also started designing the database schema for storing time logs.
+
+What do you commit to next?
+I’ll continue working on the Timer feature, focusing on finalizing the backend methods and ensuring the 
+database properly logs time for tasks.
+
+When do you think you'll be done?
+I expect to have the Timer feature completed within the next two days.
+
+Do you have any blockers?
+I'm having difficulty with properly logging the time in the database, especially with concurrent tasks. I’ll 
+need to research solutions for that.
+
+[November 7, 2024] - Sprint 2 Standup 2
+Najwa:
+
+What did you work on since the last standup?
+I worked on extending the Task class to include a due date attribute and integrated the due date 
+functionality into the backend.
+
+What do you commit to next?
+I will focus on testing the Timer feature and finishing up unit tests for the due date functionality.
+
+When do you think you'll be done?
+I expect to complete testing and unit tests by the end of tomorrow.
+
+Do you have any blockers?
+The integration between the frontend and backend for due date display is slightly delayed due to some 
+UI alignment issues. I'll work with Hamzah on this.
+
+[November 9, 2024] - Sprint 2 Standup 3
+Najwa:
+
+What did you work on since the last standup?
+I finished writing unit tests for the Timer and Due Date features and started preparing the code for the 
+sprint demo.
+
+What do you commit to next?
+I’ll help finalize any issues with the frontend integration for the due date and timer functionalities 
+and assist with the demo preparations.
+
+When do you think you'll be done?
+Everything should be ready for the demo by tomorrow afternoon.
+
+Do you have any blockers?
+There are no blockers now, but I’ll need to review the demo setup with the team to ensure everything runs smoothly.
+
+[November 10, 2024] - Sprint 2 Standup 1
+Hamzah:
+
+What did you work on since the last standup?
+I focused on designing the frontend for the Timer widget, including adding buttons for start, pause, and reset. 
+I also integrated the visual timer display.
+
+What do you commit to next?
+I will now start working on the frontend integration for the due date functionality, adding a calendar input
+to select a due date for tasks.
+
+When do you think you'll be done?
+I expect to complete the due date frontend integration in the next two days.
+
+Do you have any blockers?
+The calendar input component isn't rendering correctly, and I need to look into a compatibility issue 
+between the component and the existing task layout.
+
+[November 11, 2024] - Sprint 2 Standup 2
+Hamzah:
+
+What did you work on since the last standup?
+I completed the integration of the timer widget into the task view. I also began working on integrating the due 
+date calendar input with the frontend.
+
+What do you commit to next?
+I’ll finish up the due date calendar input integration and ensure that the selected due date is displayed 
+properly on the task page.
+
+When do you think you'll be done?
+I should have the due date integration completed by tomorrow.
+
+Do you have any blockers?
+There are some styling issues with the calendar input. I need to fix its position within the task view.
+
+[November 13, 2024] - Sprint 2 Standup 3
+Hamzah:
+
+What did you work on since the last standup?
+I completed the frontend work for both the Timer and Due Date features. The task page now displays the due 
+date and allows users to select one via a calendar input.
+
+What do you commit to next?
+I’ll assist with the final steps of the sprint demo, ensuring everything looks good for the presentation.
+
+When do you think you'll be done?
+Everything should be ready for the sprint demo by the end of the day.
+
+Do you have any blockers?
+No blockers, everything is ready for the demo.
+
+[November 13, 2024] - Sprint 2 Standup 1
+Abdihakim:
+
+What did you work on since the last standup?
+I focused on the backend logic for the due date functionality, specifically integrating the due date input 
+with the database. I also began implementing the necessary API calls.
+
+What do you commit to next?
+I’ll work on completing the backend integration, ensuring the due date is properly linked to each task and 
+displayed in the task view.
+
+When do you think you'll be done?
+I expect to complete the backend integration by tomorrow.
+
+Do you have any blockers?
+There is an issue with syncing the due date value between the frontend and backend, which is causing delays. 
+I will need to coordinate with Hamzah on this.
+
+[November 14, 2024] - Sprint 2 Standup 2
+Abdihakim:
+
+What did you work on since the last standup?
+I finished integrating the backend for the due date functionality and tested the feature with the frontend.
+
+What do you commit to next?
+I’ll now work on finalizing the backend connections for the Timer feature and ensure the timer data is 
+logged properly in the database.
+
+When do you think you'll be done?
+I plan to have everything finished by tomorrow.
+
+Do you have any blockers?
+I’m encountering a slight issue with the time data format in the database. I’ll work with Najwa to resolve it.
+
+[November 15, 2024] - Sprint 2 Standup 3
+
+Abdihakim:
+
+What did you work on since the last standup?
+I completed the backend integration for both the Timer and Due Date features and tested them thoroughly.
+
+What do you commit to next?
+I’ll help with debugging any final issues and assist with preparing for the sprint demo.
+
+When do you think you'll be done?
+Everything will be ready for the sprint demo by tomorrow.
+
+Do you have any blockers?
+No blockers now, but I’ll be reviewing the demo setup with the team to ensure everything works as expected.
