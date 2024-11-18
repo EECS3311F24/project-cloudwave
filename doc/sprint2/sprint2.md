@@ -55,21 +55,21 @@ Feature 2: Due Date Functionality
 
 User Stories
 
-Story:
+Story 1:
 As a volunteer event organizer, I want to add due dates to my tasks so that I can track event preparation deadlines and ensure everything is completed on time.
 
 Acceptance Criteria:  A calendar option to select a due date when creating a task. The due date is shown next to tasks in the task list. Tasks that are due soon (within 24 hours) are visually highlighted.
 
 Tasks:  Add a Calendar Option for Due Date Selection:  Assigned to: Najwa Description: Implement a calendar button or dropdown to let users choose a due date when creating or editing a task. Ensure the selected date is saved with the task. Estimation: 2 points (1 hour) Show Due Dates and Highlight Tasks Due Soon:  Assigned to: Hamza Description: Display the due date next to each task in the task list. Add a visual indicator (e.g., color or icon) to highlight tasks due within the next 24 hours. Estimation: 2 points (1 hour) Test and Ensure Due Date Functionality Works:  Assigned to: Abdihakim Description: Test that users can add, see, and edit due dates. Verify that tasks due soon are highlighted properly. Estimation: 1 point (30 minutes) Total Estimate for User Story 1: 5 points
 
-Story:
+Story 2:
 As a freelancer, I want a timer feature to schedule breaks so that I can maintain productivity and manage my work-life balance effectively.
 
 Acceptance Criteria:  Countdown timer for preset break durations (e.g., 5, 10, 15 minutes). Start, pause, and reset buttons to control the timer. A notification sound when the break ends.
 
 Tasks:  Develop Countdown Timer:  Assigned to: Abdihakim Description: Implement a timer feature with countdown functionality for preset durations. Estimation: 2 points (1 hour) Design Timer Control Buttons:  Assigned to: Najwa Description: Create "Start," "Pause," and "Reset" buttons for the timer. Estimation: 1 point (30 minutes) Set Up Break End Notification:  Assigned to: Hamza Description: Add a notification sound and message when the timer ends. Estimation: 1 point (30 minutes)
 
-Story:
+Story 3:
 As a parent managing family tasks, I want to update the due dates of existing tasks so that I can accommodate changes in plans or priorities.
 
 Acceptance Criteria:  An "Edit Due Date" button available for each task. A date picker for selecting a new due date. A confirmation message displayed upon successfully updating the due date.
