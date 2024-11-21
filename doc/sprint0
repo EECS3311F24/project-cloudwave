@@ -1,0 +1,458 @@
+SUMMARY 
+To-Do List Java GUI Project Overview
+Project Objective:
+The objective of this project is to create a simple and intuitive To-Do List Java GUI application that helps users efficiently manage tasks and events. The tool will allow users to create, edit, and view tasks, with options for setting reminders and tracking progress through task completion. A unique aspect to our project is having a mood based system. Users would get recommended tasks based on their mood.
+Key Users:
+General Users: Individuals managing daily tasks and appointments.
+Students and Instructors: Users who need to organize academic work, such as assignments and deadlines.
+Project Team: Developers and team members who will use the to-do list to coordinate tasks, set deadlines, and prioritize work.
+Key Use Cases:
+Task Creation and Management:
+Users can create tasks with details such as task name, due date, priority, and description.
+Tasks can be edited or deleted as necessary to keep the list up-to-date.
+Task List with Completion Status:
+Users can mark tasks as completed, allowing them to track progress and maintain focus on pending tasks.
+A visual indicator (checkbox or icon) will show the completion status of each task.
+Task Reminders:
+Users can set reminders for upcoming tasks, notifying them before the task is due.
+Notifications will appear as pop-up alerts, helping users stay on top of their schedule.
+Simple Navigation Between Days:
+Users can navigate between different days to view tasks specific to that day, using "Previous" and "Next" buttons.
+The current day’s tasks will be displayed prominently for easy access.
+Key Usage Scenarios:
+Managing Daily Tasks: A user creates tasks for their daily chores and sets reminders to ensure timely completion. They mark tasks as done once completed, keeping their task list organised.
+Tracking Academic Work: A student adds tasks for assignments and sets due dates. The application reminds them of upcoming deadlines, helping them complete work on time.
+Team Task Coordination: Team members use the to-do list to assign tasks for a group project. They track progress by marking tasks as completed and update the list to reflect new deadlines as needed.
+
+PROCESS
+
+
+ ● How did you organise the team? Which tools did you use, if any? 
+
+We organised the team by dividing responsibilities based on the Model-View-Controller (MVC) structure: one team member handled the Model (data and logic), another worked on the View (Java GUI), and the third was responsible for the Controller (interaction between model and view).
+For tools, we used Trello to manage tasks and track progress, GitHub for version control, and Discord for regular communication.
+
+● How did you make decisions?
+Decisions were made through brainstorming sessions during our Zoom meetings. We discussed ideas, and once everyone had shared their thoughts, we voted to decide on the best approach.
+
+ ● How did you define priority and/or points of user stories? How many rounds of voting (on average) did you need to come to a consensus for the point estimate? 
+
+We prioritized user stories based on their importance to the user and the technical difficulty of implementation.
+
+We assigned story points to estimate the effort required for each user story, discussing each story's scope and complexity.
+
+On average, it took two rounds of voting to reach a consensus on the point estimate for each user story.
+
+● How frequently did you meet?
+
+We held weekly Zoom meetings to discuss progress, review completed tasks, and address any blockers. Occasionally, we held extra meetings if something urgent came up.
+
+ ● What lessons should you take forward to the next phase? 
+
+Time Management: We need to improve on estimating task completion times and sticking to deadlines.
+Better Communication: We learned that staying in constant communication helps prevent delays.
+Earlier Testing: We will focus on testing earlier in the process to catch and resolve issues sooner.
+
+
+
+
+TEAM CONTRACT
+Team Expectations Agreement for Calendar MVC Project with Java GUI
+Project Overview: This contract governs the collaboration on the development of a Calendar Application using the Model-View-Controller (MVC) software architecture pattern, with Java GUI for the user interface. The project will follow the Agile SDLC and specifically implement the Scrum framework. The team is responsible for delivering a full-stack Java application that includes both front-end and back-end functionality.
+
+1. Team Members:
+Abdihakim Gaal, Hamzah Patel, Najwa Waqar
+Each member's roles and responsibilities will be aligned with the MVC structure:
+Model: Manages the calendar data and business logic.
+View: Responsible for creating and managing the Java GUI.
+Controller: Facilitates interaction between the model and view.
+2. Communication:
+Primary Methods: Email, Messenger, Discord, Trello for task management.
+Response Time: Team members are expected to respond to all communication within 24 hours.
+Urgent Matters: In case of an emergency or critical issue, members are expected to reply within 2 hours via Discord or Messenger.
+3. Meeting Guidelines:
+Meeting Frequency: Weekly zoom meetings to review progress, discuss blockers, and plan the next sprint. Additional meetings as needed.
+Attendance: Attendance is mandatory unless otherwise communicated in advance.
+Meeting Type: Online via zoom
+4. Meeting Preparation:
+Each team member is expected to update Trello with their progress and any issues before the meeting.
+5. Version Control:
+GitHub will be used for version control.
+Commit Rules:
+All code commits must include detailed messages explaining the changes.
+Each team member will work on a separate branch and submit pull requests for integration into the main branch.
+Code reviews are mandatory before any merges.
+6. Division of Work:
+Work will be divided according to the MVC structure:
+Model: Abdihakim
+View (Java GUI): Hamza
+Controller: Najwa
+Testing, integration, deployment, and documentation will be assigned as needed.
+7. Submitting Assignments:
+All deliverables will be pushed to the project repository before the deadline.
+A final review will be conducted to ensure that the code is tested, functional, and well-documented.
+8. Contingency Planning:
+Absenteeism: If a team member repeatedly misses meetings or fails to meet deadlines, their responsibilities will be reassigned and the issue escalated.
+Project Scope Changes: In the event of scope changes, the team will meet to redistribute tasks and adjust sprint goals.
+
+Personas.pdf
+
+To create detailed personas for your project, you'll want to focus on representing key user types based on their goals and needs. Here’s how to structure the personas following the agile modeling format.
+
+
+Competition.md
+
+There are several existing products that solve the problem of task management and organisation, such as Microsoft To Do (https://todo.microsoft.com), Todoist (https://todoist.com), and Any.do (https://www.any.do). These tools provide features like task prioritisation, deadlines, and reminders but focus primarily on managing tasks in a more traditional, productivity-focused way. Our application differs by incorporating a Mood-Based Task Suggestion feature that adapts to the user's emotional state, providing task suggestions that align with their mood, whether they feel productive, stressed, or relaxed. This feature makes our application stand out for users who seek a more personalised task management experience that focuses on their well being. The primary users would be individuals who are conscious of their mental health and energy levels while managing tasks, such as freelancers, students, or people dealing with high stress.
+
+Competitors likely haven’t focused on these users because they aim to appeal to a broad audience with straightforward task management needs, emphasising efficiency and integration with other tools. To shift their focus to these users, competitors would need to invest in features that prioritise emotional well-being, requiring significant changes to their user experience design and task-suggestion algorithms to make their apps more adaptive to users’ mental states. This would be a major deviation from their current focus on traditional productivity metrics.
+
+
+PERSONAS
+
+Persona 1: Fitness Coach
+Name: Sarah Thompson
+Age: 34
+Occupation: Fitness Coach
+Background: Sarah has been a professional fitness coach for 10 years, specializing in strength training and wellness programs for a wide range of clients, from beginners to athletes. She manages 15 clients per week and needs a tool to track their progress, plan workouts, and set goals. Sarah is tech-savvy and uses various apps to streamline her work. However, she often finds switching between apps inefficient.
+Motivations:
+Ensure her clients meet their fitness goals.
+Keep track of multiple workout plans simultaneously.
+Improve client retention by demonstrating measurable progress.
+Goals:
+Create and manage to-do lists for each client’s training plan.
+Set weekly, monthly goals for each client.
+Receive notifications for important deadlines, such as client progress assessments.
+Analyze productivity to optimize her coaching schedule.
+Allows me to select my mood, and reccomends tasks based on that
+Frustrations:
+Existing task management tools are not client-specific.
+No clear view of how productive she is with different clients.
+Wants a more consolidated way to manage client goals and progress.
+
+
+Persona 2: Software Developer
+Name: David Nguyen
+Age: 28
+Occupation: Software Developer
+Background: David works for a tech startup and manages multiple development projects simultaneously. His day-to-day tasks involve coding, testing, and debugging software features. He follows agile methodologies and often uses tools like Jira for task management but finds it too complex for personal project tracking. He prefers simplicity when managing his individual work tasks.
+Motivations:
+Track his development progress easily across multiple sprints.
+Organize both personal and professional development goals.
+Improve efficiency and time management when switching between projects.
+Goals:
+Create and manage personal to-do lists for daily and weekly tasks.
+Set measurable goals and track achievements for his professional work.
+Use a productivity meter to analyze how efficiently he completes coding tasks.
+Generate reports for personal review of task completion and productivity trends.
+Frustrations:
+Tools like Jira are over-complicated for personal task tracking.
+Difficulty balancing work and personal project goals.
+Lacks visibility into how much time is spent on specific coding tasks.
+
+Persona 3: Small Business Owner
+Name: Emily G
+Age: 42
+Occupation: Owner of a Boutique Clothing Store
+Background: Emily manages a small retail store with both physical and online components. She is responsible for a variety of tasks, including managing her team, inventory, customer relationships, and marketing efforts. Emily is organized but finds it hard to juggle all aspects of her business efficiently without a clear productivity tool that lets her break down big goals into smaller tasks.
+Motivations:
+Stay organized and efficient while managing multiple areas of her business.
+Set reminders for important tasks, such as placing inventory orders or scheduling marketing campaigns.
+Measure productivity and task completion to ensure her business runs smoothly.
+Goals:
+Create and track both daily and long-term goals for her business.
+Set reminders for tasks throughout the day.
+View reports summarizing completed and pending tasks to track her team’s performance.
+Organize tasks into categories, like inventory and marketing, to stay focused.
+Frustrations:
+Finding time to manage everything while focusing on growing her business.
+Most task management tools aren’t flexible enough to handle both personal and team tasks.
+Difficulties in measuring how effective she is in different business areas.
+
+USER EXPERIENCE (Did not know how to upload the pdf, so i used a google drive link)
+https://drive.google.com/file/d/1ppuZcNl7yBPXIXYrwvDAiH7OCC4Zj-pk/view?usp=drive_link
+
+# PRODUCT BACKLOG PB.md
+
+## User Story 1
+**As a fitness coach**, I want to create a detailed to-do list to track my clients’ progress and tasks related to workout routines so that I can ensure I meet their fitness goals.
+
+- **Acceptance Criteria**:
+  - The system allows users to create tasks with a title, description, and deadline.
+  - Users can categorize tasks by client or fitness program.
+  - Each task can be marked as complete, edited, or deleted.
+  - The system sends notifications for upcoming tasks to the coach.
+  - The system allows me to select my mood, and recommends tasks based on that
+
+---
+
+## User Story 2
+**As a software developer**, I want to set daily, weekly, and monthly development goals so that I can manage my sprints and deadlines efficiently.
+
+- **Acceptance Criteria**:
+  - Users can create goals that specify the time frame (daily, weekly, monthly).
+  - Goals can include subtasks that break down large tasks into manageable pieces.
+  - The system sends reminders for upcoming deadlines and overdue tasks.
+  - Users can visualize progress toward each goal through a progress bar.
+  - The system allows me to select my mood, and recommends tasks based on that
+
+---
+
+## User Story 3
+**As an artist**, I want to track my creative projects with deadlines and goals, so that I can manage commissions and personal work without missing deadlines.
+
+- **Acceptance Criteria**:
+  - Users can create multiple projects, each with its own set of deadlines and goals.
+  - The system allows users to upload reference images or documents related to the project.
+  - Users can assign priority levels to tasks within each project.
+  - Notifications are sent for project milestones and upcoming deadlines.
+  - The system allows me to select my mood, and reccomends tasks based on that
+
+---
+
+## User Story 4
+**As a content creator**, I want a productivity meter to track how much time I spend on content production so that I can manage my work-life balance.
+
+- **Acceptance Criteria**:
+  - Each task includes a timer feature that records the duration of active work sessions.
+  - Users can view a daily and weekly summary of time spent on various tasks.
+  - The productivity meter provides insights into the user’s most productive times of day.
+  - Users can set time limits for tasks to help manage their schedule.
+
+---
+
+## User Story 5
+**As a busy entrepreneur**, I want to generate reports on task productivity so that I can analyze how efficiently I’m managing my business tasks.
+
+- **Acceptance Criteria**:
+  - The system generates reports that include completed tasks, pending tasks, and productivity metrics.
+  - Reports can be filtered by time frame (daily, weekly, monthly).
+  - Users can export reports in PDF or CSV formats for external use.
+  - Graphical representations of productivity trends over time are available.
+
+---
+
+## User Story 6
+**As a medical resident**, I want to prioritize my to-do list so that I can complete urgent medical tasks before lower-priority ones.
+
+- **Acceptance Criteria**:
+  - Users can assign priority levels (high, medium, low) to each task.
+  - The system sorts tasks automatically by priority and due date.
+  - High-priority tasks trigger immediate notifications as their deadlines approach.
+  - Users can mark tasks as urgent for immediate attention.
+
+---
+
+## User Story 7
+**As a journalist**, I want to organize my tasks and goals into categories (e.g., articles, interviews) so that I can easily manage different aspects of my job.
+
+- **Acceptance Criteria**:
+  - Users can create categories for their tasks and goals.
+  - The dashboard displays tasks grouped by category for easy access.
+  - Users can filter tasks by category, deadline, or priority.
+  - Category-specific notifications are sent for upcoming tasks.
+
+---
+
+## User Story 8
+**As a chef**, I want to set recurring reminders for inventory checks and daily tasks so that I don’t miss any important kitchen tasks.
+
+- **Acceptance Criteria**:
+  - Users can create tasks with recurring schedules (daily, weekly, monthly).
+  - Notifications remind users of upcoming inventory checks or kitchen tasks.
+  - Users can view a calendar that highlights recurring tasks and deadlines.
+  - The system allows users to mark recurring tasks as complete or skipped.
+
+---
+
+## User Story 9
+**As a non-profit event organizer**, I want to set reminders for important event deadlines so that I can ensure timely planning and execution.
+
+- **Acceptance Criteria**:
+  - Users can create event-related tasks with specific deadlines.
+  - Reminders can be customized (e.g., days or hours before the deadline).
+  - The system allows for team collaboration on event tasks, sending notifications to all members.
+  - A dashboard displays upcoming event deadlines and task statuses.
+
+---
+
+## User Story 10
+**As a musician**, I want to track the time spent on rehearsing and songwriting so that I can see how efficiently I’m using my creative time.
+
+- **Acceptance Criteria**:
+  - Users can log practice sessions and songwriting efforts with notes on what was accomplished.
+  - A timer tracks the duration of each session, displaying it in a visual format.
+  - Users receive weekly summaries of time spent on rehearsals and songwriting.
+  - The system can suggest optimal times for practicing based on past data.
+
+---
+
+## User Story 11
+**As a doctor**, I want to get a weekly summary of my upcoming appointments, surgeries, and tasks so that I can plan my week efficiently.
+
+- **Acceptance Criteria**:
+  - Users receive a weekly summary that includes all upcoming appointments and tasks.
+  - The summary can be customized to highlight priority items.
+  - Users can opt to receive this summary via email or push notification.
+  - A visual calendar view shows all upcoming events for the week.
+
+---
+
+## User Story 12
+**As a photographer**, I want to keep a history of completed projects and sessions so that I can reflect on my work and use it for future reference.
+
+- **Acceptance Criteria**:
+  - Completed projects are stored with details such as date, client, and type of session.
+  - Users can filter their project history by date, type, or client.
+  - Users can add notes or feedback to each completed project for future reference.
+  - The system allows users to view statistical summaries of completed work.
+
+---
+
+## User Story 13
+**As a student**, I want to create and manage a to-do list so that I can keep track of my assignments and deadlines.
+
+- **Acceptance Criteria**:
+  - Users can add, edit, delete tasks.
+  - Tasks can be marked as completed.
+
+
+---
+
+## User Story 14
+**As a nurse**, I want to assign deadlines to medical tasks and appointments so that I can ensure that patient care tasks are completed on time.
+
+- **Acceptance Criteria**:
+  - Users can create tasks with specific deadlines related to patient care.
+  - The system allows users to set reminders for these tasks based on their urgency.
+  - Users can view all upcoming deadlines on a dashboard or calendar.
+  - High-priority tasks can be flagged for immediate attention.
+
+---
+
+## User Story 15
+**As an architect**, I want to assign goals to different projects so that I can break down each project into manageable steps.
+
+- **Acceptance Criteria**:
+  - Users can create project-specific goals linked to individual tasks.
+  - The system allows users to view goals and associated tasks in one interface.
+  - Users can visualize the overall progress of each project through a progress bar.
+  - Goals can be edited, updated, or marked as complete.
+
+---
+
+## User Story 16
+**As a parent**, I want to assign tasks to family members so that household responsibilities are distributed fairly.
+
+- **Acceptance Criteria**:
+  - Users can create tasks and assign them to specific family members.
+  - The system allows family members to receive notifications for assigned tasks.
+  - A shared family calendar shows all household responsibilities.
+  - Users can track the completion status of assigned tasks.
+
+---
+
+## User Story 17
+**As a software tester**, I want to organize my tasks in a calendar view so that I can visualize my testing timelines and deadlines.
+
+- **Acceptance Criteria**:
+  - Users can view all tasks in a calendar format, allowing easy rescheduling.
+  - Users can drag and drop tasks to change their due dates.
+  - The system provides a visual overview of all upcoming deadlines.
+  - Users can filter tasks by project or priority in the calendar view.
+
+---
+
+## User Story 18
+**As a financial analyst**, I want to track the time spent on reports and financial tasks so that I can optimize my productivity.
+
+- **Acceptance Criteria**:
+  - Users can log time spent on specific financial tasks and projects.
+  - The system generates weekly reports detailing time spent on each task.
+  - Users can analyze productivity trends and identify areas for improvement.
+  - Notifications remind users to log their hours at the end of each day.
+
+---
+
+## User Story 19
+**As a small business owner**, I want to set reminders to focus on specific tasks during the day so that I can maximize my productivity.
+
+- **Acceptance Criteria**:
+  - Users can create timed reminders for specific tasks throughout the day.
+  - The system allows users to customize reminder settings (e.g., frequency, duration).
+  - Notifications prompt users to start tasks at the scheduled times.
+  - Users can view their daily task list with time allocations for each task.
+
+---
+
+## User Story 20
+**As a sales manager**, I want to receive monthly reports on my task and goal completion so that I can evaluate my team’s performance.
+
+- **Acceptance Criteria**:
+  - The system generates monthly reports summarizing team members’ task completions and goal achievements.
+  - Reports include visual representations of performance trends over time.
+  - Users can export reports in various formats (PDF, CSV).
+  - The system allows for comparisons between different months
+
+READ.ME
+
+Motivation
+This project is a To-do list Java GUI application. 
+The motivation behind this project stems from a desire to create a task management tool that goes beyond traditional to-do lists by addressing not just productivity but also emotional well-being.
+Many existing to-do list applications focus solely on maximising efficiency, often overlooking the user's mental state or capacity to take on certain tasks. 
+This app solves the problem of rigid task prioritisation by introducing a Mood-Based Task Suggestion system, where users can select their current mood (e.g., productive, stressed, relaxed), and the app will suggest tasks accordingly. 
+The goal is to provide a more personalised and empathetic experience, helping users manage their tasks in a way that aligns with how they feel in the moment. 
+By catering to users’ emotional needs, the app fosters a healthier balance between productivity and well-being, making it an essential tool for those who want to maintain high performance without sacrificing mental health. 
+This project exists because task management should be adaptive, not just to deadlines, but also to the user's capacity and energy levels.
+
+Installation
+To run the project, you need the following tools and dependencies installed on your system:
+Java Development Kit (JDK) 17 or later
+Maven (for building the project)
+Git (for version control)
+Steps to Build and Run:
+Clone the Repository:
+git clone <repository-url>
+Navigate to Project Directory:
+cd calendar-gui-project
+Build the Project:
+Run mvn clean install to install dependencies and build the project.
+Run the Application:
+After building, you can run the project by executing java -jar target/calendar-app.jar.
+Contribution
+We welcome contributions to the Calendar Java GUI project! Please follow the process below:
+Development Process
+We follow git flow to manage the development cycle:
+The main branch contains stable, production-ready code.
+The develop branch is used for ongoing development.
+Feature branches are created off of develop for new features or bug fixes.
+Branch Naming Conventions
+Use descriptive names for branches:
+feature/<short-description> for new features.
+bugfix/<short-description> for bug fixes.
+hotfix/<short-description> for urgent fixes on the main branch.
+Issue Tracking
+We use GitHub Issues for tracking tasks, bugs, and enhancements. Please check for open issues or create a new issue to discuss your ideas.
+Pull Requests
+All contributions should be made via pull requests to the develop branch.
+A team member will review your pull request, and once approved, it will be merged into develop.
+
+done.md
+Project Completion Checklist:
+User Interface (UI)
+Basic, user-friendly interface with buttons, text fields, and lists.
+Allows for task creation, editing, deletion, and viewing.
+Task Management
+Create, edit, and delete tasks.
+Mark tasks as “done” with a checkbox or similar indicator.
+Task List and Navigation
+Display tasks in a simple list.
+Navigate between tasks for different days (e.g., using "Previous" and "Next" buttons).
+Reminders
+Set task reminders.
+Pop-up notifications for upcoming tasks.
+Task Persistence
+Tasks are saved and reloaded when the app is closed and reopened.
+Basic Testing
+Ensure all 6 features work correctly and handle errors properly.
+Once all items on this list are completed and tested, the project is done.
+

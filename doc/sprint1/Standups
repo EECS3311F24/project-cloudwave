@@ -1,0 +1,47 @@
+[October 9, 2024] - Sprint #1 Standup #1
+
+1. What did you work on since the last standup?
+- Reviewed the rubric for planning meetings, specifically focusing on the RPM.md and sprintN.md documentation requirements. 
+  Each team member evaluated their contributions to ensure comprehensive records in RPM.md, covering meeting participation, release goals, and user story references.
+- Outlined expectations for sprintN.md, including sprint goal documentation, task breakdowns, and recording team capacity.
+
+2. What do you commit to next?
+- We will draft RPM.md using today’s meeting notes.
+- Each team member will add a brief summary of their contributions for the RPM.md participant record.
+- The team will review and refine the user stories on Trello to align them with our sprint goals and complete task breakdowns for sprintN.md.
+
+3. When do you think you'll be done?
+- The draft RPM.md and sprintN.md will be ready for review by the next standup and finalized for submission by the end of the day.
+
+4. Do you have any blockers?
+- No blockers currently, though we may need to double-check the user stories on Trello to ensure all tasks align with our goals and rubric requirements.
+
+[October 16th, 2024] - Sprint #2 Standup #2
+
+1. What did you work on since the last standup?
+- Worked on implementing the user sign-up feature using JTextField for input and saving user data locally in a text file.
+
+2. What do you commit to next?
+- Next, we will start developing the basic event creation feature, which allows users to add events with name, date, and time.
+
+3. When do you think you'll be done?
+- We aim to have the event creation feature completed by the next standup, ensuring it’s ready for team review.
+
+4. Do you have any blockers?
+- No blockers currently. Just need to finalize the format for storing events so we can maintain consistency across the team.
+
+[October 30th, 2024] - Sprint #3 Standup #3
+
+1. What did you work on since the last standup?
+- Finalized the "Mark Events as Done" feature. Added checkboxes next to each event in the event list, allowing users to mark events as completed. 
+  Ensured that the event status updates seamlessly when the checkbox is toggled.
+
+2. What do you commit to next?
+- We will be finalizing the "Event Viewing (List View)" feature, completing the setup of the JList to display events by day with 
+  navigation buttons to switch between dates.
+
+3. When do you think you'll be done?
+- We expect everything to be fully wrapped up by the end of the sprint, with all features functioning as intended.
+
+4. Do you have any blockers?
+- No blockers currently. We resolved the issue with dynamically updating the event list, so everything is on track for finalization.
