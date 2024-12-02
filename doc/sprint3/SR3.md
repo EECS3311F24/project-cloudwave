@@ -27,6 +27,10 @@ Time Management in Testing:
 More time was spent on feature implementation than initially planned, which reduced the time available
 for comprehensive testing. Better time allocation would have allowed for more thorough end-to-end testing.
 
-Handling Unexpected Edge Cases:
-We didn’t fully plan for some issues, like handling navigation during internet problems. 
-Anticipating and preparing for these cases earlier would have improved application robustness.
+Time Allocation:
+More time should have been allocated to refining the appearance of the progression bar and reminders. 
+Additional polish would have enhanced the visual appeal.
+
+Handling Edge Cases for Notifications
+Some rare cases, such as reminders for tasks with no due date, were not fully handled. Better planning for 
+these scenarios would improve functionality.
