@@ -1,0 +1,139 @@
+Najwa Saif Waqar
+[November 18th, 2024] - Sprint 3 Standup 1
+
+What did you work on since the last standup?
+Started implementing the backend logic for the task progression bar. 
+Developed the function to calculate the percentage of completed tasks.
+
+What do you commit to next?
+Integrate the progression bar into the main UI and test if the progress 
+updates correctly when tasks are added or completed.
+
+When do you think you'll be done?
+I expect to finish the integration within the next two days.
+
+Do you have any blockers?
+No major blockers, but I need to ensure the UI updates smoothly without 
+performance issues.
+
+[November 20th, 2024] - Sprint 3 Standup 2
+
+What did you work on since the last standup?
+Integrated the task progression bar into the UI and tested it with sample 
+tasks. Fixed a bug where progress wasn’t updating.
+
+What do you commit to next?
+Begin coding the reminder feature to notify users about unfinished tasks.
+
+When do you think you'll be done?
+I plan to complete the reminder logic by tomorrow.
+
+Do you have any blockers?
+Minor issue with ensuring reminders don't overlap. Working on a solution to 
+queue notifications.
+
+[November 21st, 2024] - Sprint 3 Standup 3
+
+What did you work on since the last standup?
+Completed the reminder feature, ensuring notifications appear at the right time. 
+Tested with multiple tasks to ensure accuracy.
+
+What do you commit to next?
+Final testing and reviewing both the progression bar and reminder system for any remaining bugs.
+
+When do you think you'll be done?
+Expect to finish final testing by the end of the day.
+
+Do you have any blockers?
+No blockers currently, but I will double-check edge cases like simultaneous reminders.
+
+Hamzah Patel
+[November 20th, 2024] - Sprint 3 Standup 1
+
+What did you work on since the last standup?
+Started designing the UI for the task progression bar, ensuring it aligns with the app’s 
+color scheme and layout.
+
+What do you commit to next?
+Finalize the UI design and ensure the progression bar is responsive on different devices.
+
+When do you think you'll be done?
+I aim to complete the design within a day.
+
+Do you have any blockers?
+No blockers at the moment.
+
+[November 21st, 2024] - Sprint 3 Standup 2
+
+What did you work on since the last standup?
+Completed the UI for the progression bar and began working on the UI elements for the reminder 
+notifications.
+
+What do you commit to next?
+Integrate the reminder notification UI with Najwa’s backend logic and test it for usability.
+
+When do you think you'll be done?
+Should be done within two days.
+
+Do you have any blockers?
+Slight challenge with ensuring notification pop-ups don’t interfere with other UI elements.
+
+[November 23rd, 2024] - Sprint 3 Standup 3
+
+What did you work on since the last standup?
+Completed the reminder notification UI and integrated it into the application. Also tested on 
+different screen sizes.
+
+What do you commit to next?
+Assist with final testing and ensure the UI elements work smoothly with the backend.
+
+When do you think you'll be done?
+Expect to wrap up all tasks by tomorrow.
+
+Do you have any blockers?
+No blockers, just some final polishing needed.
+
+Abdihakim
+[November 25th, 2024] - Sprint 3 Standup 1
+
+What did you work on since the last standup?
+Started testing the task progression bar to ensure it updates correctly as tasks are marked complete.
+
+What do you commit to next?
+Continue debugging any issues found with real-time updates and begin testing the reminder system.
+
+When do you think you'll be done?
+Plan to finish initial testing within two days.
+
+Do you have any blockers?
+No blockers at the moment.
+
+[November 27th, 2024] - Sprint 3 Standup 2
+
+What did you work on since the last standup?
+Tested the progression bar and fixed an issue where the bar did not update when tasks were deleted. 
+Started testing the reminder system.
+
+What do you commit to next?
+Focus on testing edge cases for the reminder feature, such as multiple simultaneous reminders.
+
+When do you think you'll be done?
+I expect to finish edge case testing by tomorrow.
+
+Do you have any blockers?
+Minor blocker with overlapping reminders, but working with Najwa on a fix.
+
+[November 28th, 2024] - Sprint 3 Standup 3
+
+What did you work on since the last standup?
+Completed testing for the reminder system and ensured all notifications triggered correctly. 
+Worked on final integration testing for the whole application.
+
+What do you commit to next?
+Finish integration testing and provide feedback for any final adjustments.
+
+When do you think you'll be done?
+Should be done by the end of the day.
+
+Do you have any blockers?
+No blockers at this stage.
